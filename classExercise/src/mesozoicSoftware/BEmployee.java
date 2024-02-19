@@ -13,6 +13,9 @@ public class BEmployee {
 		this.jobTitle = jobTitle;
 		this.years = years;
 	}
+	public BEmployee() {
+		// TODO Auto-generated constructor stub
+	}
 	public String getName() {
 		return this.name;
 	}
@@ -31,4 +34,6 @@ public class BEmployee {
 
 	}
 
-}
+	}
+
+
