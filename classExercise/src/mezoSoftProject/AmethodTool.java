@@ -26,10 +26,8 @@ public class AmethodTool {
 		for(int i = 0; 0<= men.length;i++) {
 			if(na.equals(men)) {
 				System.out.println(men[i].getName() + men[i].getJob());
-		
+				}
+			}
+		}
 	}
-	
-}
-	}
-}
 	
