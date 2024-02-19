@@ -7,7 +7,7 @@ import mesozoicSoftware.CMen;
 
 
 public class AmethodTool {
-//	공룡프로파일
+//	공룡프로파일 메소드
 	CDino dino = new CDino();	
 	public void dinopro(String dn){
 		ADinasaur[] park = dino.getDinoPark();
@@ -18,7 +18,7 @@ public class AmethodTool {
 		}
 	}
 	
-//	종업원프로파일
+//	종업원프로파일 메소드
 	
 	public void  emplyee(String na) {
 		CMen cm = new CMen();
@@ -31,3 +31,4 @@ public class AmethodTool {
 		}
 	}
 	
+// 티켓 관련 메소드
