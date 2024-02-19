@@ -3,11 +3,8 @@ package mesozoicSoftware;
 import java.util.Scanner;
 
 public class CDino {
-	private ADinasaur[] dinoPark;
-
-	public ADinasaur[] getDinoPark() {
-		return this.dinoPark;
-	}
+	
+	
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -30,21 +27,13 @@ public class CDino {
 		park.add(brachioSaurus);
 		park.add(tyrannoSaurus);
 		park.add(velociRaptor);
-
-		
-		 private  ADinasaur[] dino = new ADinasaur[7]; 
-		  dino[0] = triceRatops; 
-		  dino[1] = stegoSaurus; 
-		  dino[2] = scelidoSaurus; 
-		  dino[3] = protoceRatops; 
-		  dino[4] = brachioSaurus; 
-		  dino[5] = tyrannoSaurus; 
-		  dino[6] = velociRaptor;
-		  
-		  		  
-		  public ADinasaur[] Dino() {
-			  return dino();
-		  }
+	}
+	/*
+	 * public void dino() { ADinasaur[] dino = new ADinasaur[7]; dino[0] =
+	 * triceRatops; dino[1] = stegoSaurus; dino[2] = scelidoSaurus; dino[3] =
+	 * protoceRatops; dino[4] = brachioSaurus; dino[5] = tyrannoSaurus; dino[6] =
+	 * velociRaptor; }
+	 */
 		 
 		  
 		
@@ -55,6 +44,5 @@ public class CDino {
 		// System.out.println("잘못 입력하셨습니다.");
 		// }
 
-		park.displayDinoInfo();
 	}
-}
+
