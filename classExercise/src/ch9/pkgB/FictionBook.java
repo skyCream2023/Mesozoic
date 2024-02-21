@@ -9,15 +9,15 @@ class FictionBook extends Book{
 		FictionBook fb = new FictionBook();
 		fb.read();
 		Book b = new Book();
-		b.read();
+//		b.read();
 	}
 }
 
 class SpaceFictionBook extends FictionBook{
 	public void doThings() {
 		read();
-		new Book().read();
-		new FictionBook().read();
+//		new Book().read();
+//		new FictionBook().read();
 		new SpaceFictionBook().read();
 	}
 }
@@ -25,10 +25,10 @@ class SpaceFictionBook extends FictionBook{
 class Reader {
 	public void doThings() {
 		Book b = new Book();
-		b.read();
+//		b.read();
 		
 		FictionBook fb = new FictionBook();
-		fb.read();
+//		fb.read();
 	}
 }
 

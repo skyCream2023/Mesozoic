@@ -35,6 +35,10 @@ class Boat extends Vehicle {
 	class Convertible extends Car {
 	}
 	
+	class Train extends Car{
+		
+	}
+	
 	
 
 
