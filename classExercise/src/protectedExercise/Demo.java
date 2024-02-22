@@ -11,7 +11,14 @@ class AsianFood extends AllFood{
 		super(taste);
 		// TODO Auto-generated constructor stub
 	}}
-class ChineesFood extends AllFood{}
+class ChineesFood extends AllFood{
+
+	ChineesFood(String taste) {
+		super(taste);
+		// TODO Auto-generated constructor stub
+	}
+	
+}
 
 
 public class Demo {
