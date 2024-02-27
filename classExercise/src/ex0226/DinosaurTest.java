@@ -7,7 +7,6 @@ public class DinosaurTest {
 	static Dinosaur[] dinos = new Dinosaur[4];
 
 	public static void main(String[] args) {
-			EmployeeManager em = new EmployeeManager();
 					
 			dinos[0] = new Dinosaur("T-rex", 10, 1, "eat");
 			dinos[1] = new Dinosaur("Tricaratops", 23, 3, "move");
