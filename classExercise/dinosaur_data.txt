@@ -1,0 +1,7 @@
+ADinasaur triceRatops = new ADinasaur("Triceratops", "Crocodiles", 10, 9000, 12);
+ADinasaur stegoSaurus = new ADinasaur("Stegosaurus", "black dragonfly", 15, 5000, 9);
+ADinasaur scelidoSaurus = new ADinasaur("Scelidosaurus", "a semi-together", 50, 250, 4);
+ADinasaur protoceRatops = new ADinasaur("Protoceratops", "Crocodiles", 5, 180, 1.8);
+ADinasaur brachioSaurus = new ADinasaur("Brachiosaurus", "black dragonfly", 7, 29000, 28);
+ADinasaur tyrannoSaurus = new ADinasaur("Tyrannosaurus", "water paraphernalia", 8, 9, 13);
+ADinasaur velociRaptor = new ADinasaur("Velociraptor", "water paraphernalia", 25, 15, 2);
