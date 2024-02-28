@@ -62,7 +62,9 @@ class Elist{
 	Els[15] = new Elist("hold", 35, "Manager", 2);
 	Els[16] = new Elist("smith", 33, "Manager", 2);
 	return Els;
+	}
 }
+	
 
 class EmployeeManager{
 	public EmployeeManager(){}
@@ -74,13 +76,12 @@ class EmployeeManager{
 		Elist[] Els = Elist.El();
 		for(int i = 0; i < Els.length;i++) {
 			if(Els[i].getName().equals(na)) {
-				System.out.println(" 이    름  : " + name +
-								  "\n 나    이  : " + age + "세" +
-								  "\n 직    책  : " + job +
-								  "\n 안전등급  : " + safeGrade + " 등급");
-				}
+				System.out.println(" 이    름  : " + Els[i].getName() +
+								  "\n 나    이  : " + Els[i].getAge() + "세" +
+								  "\n 직    책  : " + Els[i].getJob() +
+								  "\n 안전등급  : " + Els[i].getsafeG() + " 등급");
 			}
 		}
-//	public void eadd{
 	}
 }
+
