@@ -1,13 +1,13 @@
 package exception;
 
-class InvalidAgeEx extends Exception {
-InvalidAgeEx(){
+class InvalidAgeException extends Exception {
+InvalidAgeException(){
 	super();
 }
-InvalidAgeEx(String message){
+InvalidAgeException(String message){
 	super(message);
 }
-InvalidAgeEx(Exception e){
+InvalidAgeException(Exception e){
 	super(e);
 }
 }
@@ -20,8 +20,10 @@ public class InvalidAge {
 	}
 
 	
-	public void setAge(int age) throws InvalidAgeEx{
-		if(age < 0 ) throw new InvalidAgeEx("message");
+	public void setAge(int age) throws InvalidAgeException{
+		if(age < 0 ) throw new InvalidAgeException("message");
+		else {System.out.println(age + "완료되었습니다.");}
+
 		this.age = age;
 	}
 

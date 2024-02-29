@@ -18,7 +18,7 @@ public class DinoTest3 {
 		updateMedical();
 	}
 	public static boolean lowWeight() {
-		return true;
+		return false;
 	}
 	public static void updateMedical() {
 		System.out.println("건강 레코드를 업데이트 합니다.");

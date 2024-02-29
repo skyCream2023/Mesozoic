@@ -1,8 +1,21 @@
 package exception001;
 
-import java.util.Arrays;
-
-
+class DinosaurIllException extends Exception{
+	public DinosaurIllException() {super();}
+	public DinosaurIllException(String message) {super(message);}
+	public DinosaurIllException(Exception e) {super (e);}
+	
+	
+	}
+	
+class CriticalHealthException extends Exception{
+	public CriticalHealthException() {super();}
+	public CriticalHealthException(String message) {super(message);}
+	public CriticalHealthException(Exception e) {super(e);}
+    int score;
+    
+    
+}
 
 class Dinasaur {
 	private String name;
@@ -49,5 +62,16 @@ class Dinasaur {
 		
 	}
 	
+	 public void dinoHelth(String h) throws DinosaurIllException{
+	      if(h.equals("이상")) {
+	    	  System.out.println("Hello!");
+	    	  
+	    	  throw new DinosaurIllException("이상이 감지 되었습니다.");
+	      } else {
+	    	  System.out.println("이상 없이");
+	      }
+	 }
+	      
+   
 
 }

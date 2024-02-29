@@ -7,8 +7,8 @@ public class InvalidAgeTest {
 		InvalidAge invalidAge = new InvalidAge(34);
 		
 		try {
-			invalidAge.setAge(-2);
-		}catch(InvalidAgeEx e) {
+			invalidAge.setAge(7);
+		}catch(InvalidAgeException e) {
 			System.out.println("잘못입력하셨습니다.");
 			
 		}
