@@ -17,7 +17,7 @@ public class app {
 	    */
 		
 		try {
-			dino.Enclosure(0);
+			dino.Enclosure(5);
 		}catch(EnclosureBreachException e) {
 			System.out.println(e.getMessage());
 		}finally {System.out.println("점검이 완료 되었습니다.");

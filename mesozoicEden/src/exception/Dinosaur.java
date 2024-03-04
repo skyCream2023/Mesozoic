@@ -58,7 +58,7 @@ class Dinosaur {
     public void Enclosure(int con ) throws EnclosureBreachException{
     	if(con == 0) {throw new EnclosureBreachException("이상이 없습니다.");}
     	else if(con == 1) {throw new EnclosureBreachException("케이지에 문제가 생겼습니다");}
-    	else {System.out.println("잘 못 입력 하셨습니다.");}
+    	else {System.out.println("시스템에 오류가 생겼습니다. 점검이 필요합니다.");}
     }
 }  
 
