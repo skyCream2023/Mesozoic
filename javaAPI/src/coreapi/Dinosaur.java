@@ -14,7 +14,7 @@ public class Dinosaur {
 		this.name = name;
 		this.speciles = speciles;
 		this.healthStatus = healthStatus;
-		this.newDino = newDino;
+		this.newDino = new String[0][];
 		
 	}
 	public String getName() {
@@ -54,11 +54,11 @@ public class Dinosaur {
 	
 		do {
 		System.out.println("공룡의 이름을 입력해주세요.");
-		setName(sc.next());
+		this.setName(sc.next());
 		System.out.println("공룡의 종을 입력해주세요");
-		setSpeciles(sc.next());
+		this.setSpeciles(sc.next());
 		System.out.println("공룡의 건강 등급을 입력해주세요");
-		setHealthStatus(sc.next());
+		this.setHealthStatus(sc.next());
 		
 		newDino = Arrays.copyOf(newDino,newDino.length+1);
 		String[] newArr = new String[] {getName(), getSpeciles(), getHealthStatus()};
@@ -102,14 +102,11 @@ class DinosaurCareSystem{
 		dino[3] = new Dinosaur("ragoon", "Dragon", "3");
 		dino[4] = new Dinosaur("tree", "backho", "3");
 	}
-	public void aty() {
+	public void atys() {
 		aty[0] = new Activity("Stroll", LocalDate.of(2024, 3, 3), 1);
 		aty[1] = new Activity("meal", LocalDate.of(2024, 3, 5), 2);
 		aty[2] = new Activity("chidbirth", LocalDate.of(2024, 3, 5), 3);
 		aty[3] = new Activity("Fight", LocalDate.of(2024, 3, 5), 4);
-		aty[4] = new Activity("treatment", LocalDate.of(2024, 3, 5), 5);
-
-		
-		
+		aty[4] = new Activity("treatment", LocalDate.of(2024, 3, 5), 5);		
 	}
 }
